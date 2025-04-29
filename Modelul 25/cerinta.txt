@@ -1,0 +1,39 @@
+Subiect 25
+
+În fişierul achizitii.txt sunt salvate produsele achiziționate de o firmă într-o lună. Pe fiecare linie a fişierului sunt informații cu privire la codul produsului (String), data achiziției (3 valori de tip int-anul, luna şi ziua din lună), cantitatea achiziționată (int) și prețul unitar al produsului (float). Valorile sunt despărţite prin virgulă.
+
+Să se scrie o aplicație care să îndeplinească următoarele cerinţe:
+
+1) Să se construiască o clasă Achizitie care să permită stocarea informațiilor despre o achiziție ce are atributele prezentate anterior. Clasa va avea implementate:
+
+-constructori (de iniţializare şi default), metode de acces, toString();
+
+implementarea unei metode valoare() care să calculeze și să returneze valoarea unei achiziții.
+
+comparabilitate între achiziții după valoarea acestora.
+
+(2 puncte)
+
+2) Să se citească fişierul achizitii.txt într-o listă (List<Achizitie>). Să se afişeze la consolā achizițiile efectuate în prima jumătate a lunii și care au o cantitate achiziționată mai mare de 100 bucăți.
+
+(2 puncte)
+
+3) Pentru fiecare produs să se afişeze la consolă numărul de achiziții efectuate în luna analizată şi valoarea totală achiziționată din produsul respectiv. Produsele vor fi afişate în ordinea descrescătoare a valorii totale achiziționate:
+
+Produs P10231 -> 5 achiziții, valoare totală 12303.5 Lei
+
+Produs P30215 -> 9 achiziții, valoare totală 3503.75 Lei
+
+(3 puncte prin utilizare Collectors; 1 punct - fără Collectors)
+
+4) Să se salveze în fişierul binar produse Frecvente.dat produsele pentru care au fost realizate mi mult de 3 achiziții pe lună.
+
+(1 punct)
+
+5) Să se citească produsele din fişierul binar produse Frecvente.dat și să se afişeze la consolā.
+
+(1 punct)
+
+Observatii
+
+Nu se acordă punctaj pentru programele cu erori de sintaxă sau erori în execuție. Punctajul se acordă dacă rezultatele sunt corecte și furnizate conform cerintelor.
