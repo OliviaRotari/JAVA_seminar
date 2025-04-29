@@ -1,0 +1,39 @@
+Subiect 22
+
+În fişierul trotinete.txt este salvată o flotă de trotinete electrice de închiriat. Pe fiecare linie a fişierului sunt informații cu privire la identificatorul de trotinetă, distanța totală parcursă (km), viteza medie şi viteza maximă atinsă (km/h), respectiv: ID trotinetă (String), distanță totală (float), viteza medie (float) şi viteza maximă (float). Valorile sunt despărțite prin tab.
+
+Să se scrie o aplicație care să îndeplinească următoarele cerințe:
+
+1) Să se construiască o clasă Trotineta care să permită stocarea informațiilor despre o trotinetă
+
+electrică ce are atributele prezentate anterior. Clasa va avea implementate:
+
+- constructori (de iniţializare şi default), metode de acces, toString();
+
+testare egalitate după distanţa totală parcursă (două trotinete sunt considerate egale dacă diferența dintre distanțele totale parcurse de ele este mai mică de 10 km);
+
+comparabilitate între trotinete după distanţa totală parcursă, luând în calcul condiția de egalitate menționată anterior.
+
+(2 puncte)
+
+2) Să se citească fişierul trotinete.txt într-un dicționar (Map<String, Trotineta>), unde cheia de tip String este dată de identificatorul de trotinetă. Să se afișeze la consolă trotinetele ce au rulat cu o viteză maximă mai mare de 50 km/h.
+
+(2 puncte)
+
+3) Pentru fiecare valoare vitezei medii a trotinetelor din flotă, să afişeze la consolă numărul trotinetelor ce au aceeaşi viteză medie şi suma distanțelor totale parcurse de acestea:
+
+viteza medie 15 km/h -> 3 trotinete, suma distanțelor parcurse 257 km
+
+viteza medie 45 km/h -> 2 trotinete, suma distanțelor parcurse 1073 km
+
+(3 puncte - prin utilizare Collectors; 1 punct - fără Collectors)
+
+4) Să se salveze în fişierul binar trotinete Rapide.dat trotinetele care au circulat cu o viteză medie de peste 14 km/m sau au atinsa o viteza maximă de peste 50 km/h.
+
+(1 punct)
+
+5) Să se citească trotinetele din fişierul binar trotinete Rapide.dat și să se afișeze la consolă. (1 punct)
+
+Observatii
+
+Nu se acordă punctaj pentru programele cu erori de sintaxă sau erori în execuție. Punctajul se acordă dacă rezultatele sunt corecte și furnizate conform cerințelor.

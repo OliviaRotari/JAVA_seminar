@@ -1,0 +1,41 @@
+Find text or too
+
+S4 În fisierul proiecte.csv sunt salvate informațu privind proiectele de cercetare gestionate în cadrul departamentului de cercetări al ASE. Pe fiecare lime sunt informațu despre un proiect, astfel cod proiect (int), acronim (String), şef proiect (String), departament (String), buget (double), mumär
+
+membrii echipă de cercetare (int) Valorile sunt despărțite prin virgulă Să se scrie o aplicație care să îndeplinească următoarele cerințe
+
+1) Definirea unei clase Proiect care să permită stocarea informațiilor despre proiecte conform structurii de mai sus. Clasa va avea:
+
+constructori (de mițializare şi default), metode de acces, toString(),
+
+- testare egalitate după cod proiect,
+
+- comparabilitate între proiecte după buget
+
+Punctaj: 2 puncte
+
+2) Citirea proiectelor într-o listä (List<Proiect>) și să se afișeze la consola bugetul total la nivel de ASE
+
+Punctaj: 2 puncte
+
+3) Afişarea listei acronimelor de protecte pentru fiecare departament, astfel
+
+departament:acronim!......acronimN
+
+Punctaj 2 puncte (prin utilizare colectorı), 1 punct (fără colectori)
+
+4) Să se salveze în fişierul text valoare proiecte csv proiectele cu bugetele alocate, sortate descrescător după numărul membrilor echpei de cercetare, astfel
+
+cod proiect, acronim, buget, numar membrii echipă
+
+Punctaj 2 puncte
+
+5) Să se salveze proiectele într-un fişier binar, proiecte.dat, și apoi să se citească fişierul binar şi să se creeze o colecție de tip Map<Integer,?> unde cheie sa fie codul de proiect iar valori să fie acronimul şi valoarea proiectului. Noua colecție va fi afişată la consolă.
+
+Punctaj: 1 punct
+
+Observatii
+
+Nu se acordă punctaj pentru programele cu erori de sintaxă sau erori în execuție. Punctajul se acordă dacă rezultatele sunt corecte și furnizate conform cerințelor.
+
+acer
